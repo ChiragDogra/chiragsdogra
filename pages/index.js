@@ -39,8 +39,11 @@ export default function Home() {
       <div className="laptop:mt-20 mob:mt-10">
         <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
           {data.headerTaglineOne} <br />
-          {data.headerTaglineTwo}
+          {data.headerTaglineTwo} <br/>
         </h1>
+        <h2 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5" >
+          {data.headerTaglineThree}
+        </h2>
         <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
       </div>
       <div
@@ -87,8 +90,8 @@ export default function Home() {
       </div>
       <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0">
         Made With ❤ by{" "}
-        <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
+        <Link href="https://twitter.com/ChiragDogra10">
+          <a className="underline underline-offset-1">Chirag Dogra</a>
         </Link>
       </h1>
     </div>

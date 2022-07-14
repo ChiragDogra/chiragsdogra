@@ -3,17 +3,19 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Chirag Dogra",
   headerTaglineOne: "Hello 👋",
-  headerTaglineTwo:
-    "I'm Chetan Verma - curious designer and devloper based in New Delhi, India. ",
+  headerTaglineTwo:  "I'm Chirag Dogra. ",
+  headerTaglineThree:
+    "I am a Full Stack Developer, and Open Source Contributor",
 
   socials: [
-    { title: "Github", link: "https://github.com/chetanverma16" },
-    { title: "LinkedIn", link: "https://www.linkedin.com/in/chetanverma7/" },
-    { title: "Twitter", link: "https://twitter.com/realchetanverma" },
-    { title: "Blog", link: "https://blog.chetanverma.com/" },
-    { title: "Email", link: "mailto:hello@chetanverma.com" },
+    { title: "Github", link: "https://github.com/ChiragDogra" },
+    { title: "Twitter", link: "https://twitter.com/ChiragDogra10" },
+    { title: "LinkedIn", link: "https://www.linkedin.com/in/Chirag-Singh-Dogra/" },
+    { title: "Medium Blog", link: "https://medium.com/@chiragdogra10/" },
+    { title: "Hashnode Blog", link: "https://chiragdogra.hashnode.dev/" },
+    { title: "Email", link: "mailto:chirag.dogra79@gmail.com" },
   ],
 
   // End Header Details -----------------------
@@ -117,7 +119,7 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I am a Software Engineer by choice and teacher by passion and above all I am a curious sapien. I like to learn new stuff and teach it to others. I like meet new people and help others, that's why I like to contribute to open source. If you have any message, feel free to DM me on Twitter @ChiragDogra10",
   //   End About Section ---------------------
 };
 
