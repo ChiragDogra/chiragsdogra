@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
+import TechCard from "../components/TechCard";
 
 // Local Data
 import data from "../yourData";
@@ -65,6 +66,25 @@ export default function Home() {
           ))}
         </div>
       </div>
+      
+
+      <div
+        className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
+      >
+        <h1 className="text-4xl text-bold">Technologies</h1>
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-5 laptop:grid-cols-12 gap-4">
+          {data.technologies.map((tech, index) => (
+            <TechCard
+              key={index}
+              imgSource={tech.imgSrc}
+              techName={tech.techName}
+            />
+          ))}
+        </div>
+      </div>
+
+
+
       <div className="mt-40 mob:mt-12 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl mob:mt-8 text-bold">Achievements.</h1>
         <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6">
@@ -73,7 +93,7 @@ export default function Home() {
               key={index}
               name={service.title}
               description={service.description}
-              validation={()=> window.open(service.validation)}
+              validation={() => window.open(service.validation)}
             />
           ))}
         </div>
