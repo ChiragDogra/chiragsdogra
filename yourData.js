@@ -32,7 +32,9 @@ export default {
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      hostedURL: "http://google.com/",
+      githostedURL: "http://google.com/",
+      gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     },
     {
@@ -42,7 +44,8 @@ export default {
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      hostedURL: "http://google.com/",
+      gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     },
     {
@@ -52,7 +55,8 @@ export default {
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      hostedURL: "http://google.com/",
+      gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     },
     {
@@ -62,7 +66,8 @@ export default {
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      hostedURL: "http://google.com/",
+      gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     },
     {
@@ -72,7 +77,8 @@ export default {
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      hostedURL: "http://google.com/",
+      gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     },
     {
@@ -82,7 +88,8 @@ export default {
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      hostedURL: "http://google.com/",
+      gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     } 
   ],
@@ -91,27 +98,13 @@ export default {
 
   // Services Section ---------------
 
-  services: [
+  achievements: [
     {
-      title: "Art Direction",
+      title: "Won High Tech Hacks",
       description:
-        "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance.",
-    },
-    {
-      title: "Branding",
-      description:
-        "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors.",
-    },
-    {
-      title: "Web Design",
-      description:
-        "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel.",
-    },
-    {
-      title: "3D Design",
-      description:
-        "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life.",
-    },
+        "We created an application 'Mind Mapp' in High tech hacks 2.0",
+        validation: "https://devpost.com/software/mindmapp-klfsjb"
+    }
   ],
 
   // End Services Section --------------------------

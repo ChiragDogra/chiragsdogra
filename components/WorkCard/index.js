@@ -1,11 +1,12 @@
 import Image from "next/image";
 import React from "react";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import DevicesIcon from '@mui/icons-material/Devices';
 
-const WorkCard = ({ img, name, description, onClick, technologies }) => {
+const WorkCard = ({ img, name, description, toGithub, toHosted, technologies }) => {
   return (
     <div
-      className="overflow-hidden cursor-pointer rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0"
-      onClick={onClick}
+      className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0"
     >
       <div
         className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-105 mob:h-48 shadow-lg"
@@ -30,6 +31,10 @@ const WorkCard = ({ img, name, description, onClick, technologies }) => {
               {technology}
             </span>
           ))}
+        </div>
+        <div className="px-6 pt-4 pb-2">
+          <GitHubIcon sx={{ fontSize: "40px" }} className= "hover:scale-105 mr-2 ml-2 mb-2 cursor-pointer" onClick={toGithub} alt="Github Link" />
+          <DevicesIcon sx={{ fontSize: "40px" }} className= "hover:scale-105 mr-2 ml-2 mb-2 cursor-pointer" onClick={toHosted} alt="HostedLink" />
         </div>
       </div>
     </div>
