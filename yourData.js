@@ -31,9 +31,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc:
         "/LinkedIn.png",
-      //Project URL - Add Your Project Url Here
-      hostedURL: "http://google.com/",
-      githostedURL: "http://google.com/",
+      //Project URL - Add Your Project Url Here 
       gitURL: "http://chetanverma.com/",
       technologies: ["react", "node.js", "express"],
     },
@@ -95,6 +93,25 @@ export default {
   ],
 
   // End Work Section -----------------------
+
+  // Skills section
+  skills:[
+    {
+      skill:"Data Structure and Algorithms"
+    },
+    {
+      skill:"Object Oriented Programming"
+    },
+    {
+      skill:"Functional Programming"
+    },
+    {
+      skill:"Communication Skill"
+    },
+    {
+      skill:"Teamwork"
+    },
+  ],
 
   technologies: [
     {

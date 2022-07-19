@@ -8,6 +8,7 @@ import TechCard from "../components/TechCard";
 
 // Local Data
 import data from "../yourData";
+import Skills from "../components/Skills";
 
 export default function Home() {
   // Ref
@@ -30,6 +31,8 @@ export default function Home() {
       behavior: "smooth",
     });
   };
+
+ 
 
   return (
     <div className="container mx-auto mb-10">
@@ -66,11 +69,17 @@ export default function Home() {
           ))}
         </div>
       </div>
-      
 
-      <div
-        className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
-      >
+      <div className="mt-40 mob:mt-12 laptop:mt-40 mob:p-2 laptop:p-0">
+        <h1 className="text-4xl mob:mt-8 text-bold">Skills</h1>
+        <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-3 gap-6">
+          {data.skills.map((skill, index) => (
+            <Skills key={index} skills={skill.skill} />
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl text-bold">Technologies</h1>
         <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-5 laptop:grid-cols-12 gap-4">
           {data.technologies.map((tech, index) => (
@@ -82,8 +91,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
-
 
       <div className="mt-40 mob:mt-12 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl mob:mt-8 text-bold">Achievements.</h1>
