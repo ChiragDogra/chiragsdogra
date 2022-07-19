@@ -37,7 +37,7 @@ const WorkCard = ({
             </span>
           ))}
         </div>
-        <div className="px-6 pt-4 pb-2">
+        <div className="px-6 pt-4 pb-2 ">
           <GitHubIcon
             sx={{ fontSize: "40px" }}
             className="hover:scale-105 mr-2 ml-2 mb-2 cursor-pointer"

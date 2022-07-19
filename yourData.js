@@ -26,70 +26,64 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
-      description: "This is a sample description of my projects and I don't know what to write and what should I write so please don't judge me.",
+      title: "Masion", //Project Title - Add Your Project Title Here
+      description: "This is a property renting/listing web application. It is build using reactJS. ReactJS function based components are used in this application. It uses react-router-dom to change pages",
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "/LinkedIn.png",
+        "/Masion.png",
       //Project URL - Add Your Project Url Here 
-      gitURL: "http://chetanverma.com/",
-      technologies: ["react", "node.js", "express"],
+      hostedURL: "https://masion.vercel.app/",
+      gitURL: "https://github.com/ChiragDogra/masion/",
+      technologies: ["React", "Firebase"],
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      description: "This is a sample description of my projects and I don't know what to write and what should I write so please don't judge me.",
+      title: "Monkey News", //Project Title - Add Your Project Title Here
+      description: "This is a react project that fetches data from News API and then renders that data in form of cards in the frontend. This also has infinite scroll feature that fetch and render the news as you scroll down the page.",
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "/MonkeyNews.png",
+      //Project URL - Add Your Project Url Here
+      hostedURL: "http://google.com/",
+      gitURL: "https://github.com/ChiragDogra/news-app",
+      technologies: ["React"],
+    },
+    {
+      title: "Ewitter", //Project Title - Add Your Project Title Here
+      description: "This is a decentralized twitter that is made by Next.js in the frontend and Solidity to write smart contract on Ethereum blockchain. It is not deployed yet but soon it'll be deployed.",
       //Project Image - Add Your Project Image Here
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      hostedURL: "http://google.com/",
-      gitURL: "http://chetanverma.com/",
-      technologies: ["react", "node.js", "express"],
+      hostedURL: "https://github.com/ChiragDogra/ewitter",
+      gitURL: "https://github.com/ChiragDogra/ewitter",
+      technologies: ["NextJS", "Solidity", "TypeScript"],
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      description: "This is a sample description of my projects and I don't know what to write and what should I write so please don't judge me.",
+      title: "ResDeck", //Project Title - Add Your Project Title Here
+      description: "This is a web application where senior folks can post their learnings of the thesis for their Juniors to learn from. This uses React.js in the frontend and Express.js in the backend.",
       //Project Image - Add Your Project Image Here
       imageSrc:
         "/LinkedIn.png",
       //Project URL - Add Your Project Url Here
-      hostedURL: "http://google.com/",
-      gitURL: "http://chetanverma.com/",
-      technologies: ["react", "node.js", "express"],
+      hostedURL: "https://github.com/ResDeck",
+      gitURL: "https://github.com/ResDeck",
+      technologies: ["React", "Node.js", "Express"],
+    },
+      
+  ],
+
+
+  // Languages section
+
+  languages:[
+    {
+      techName: "Javascript",
+      imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
     },
     {
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      description: "This is a sample description of my projects and I don't know what to write and what should I write so please don't judge me.",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "/LinkedIn.png",
-      //Project URL - Add Your Project Url Here
-      hostedURL: "http://google.com/",
-      gitURL: "http://chetanverma.com/",
-      technologies: ["react", "node.js", "express"],
+      techName: "React",
+      imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg"
     },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      description: "This is a sample description of my projects and I don't know what to write and what should I write so please don't judge me.",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "/LinkedIn.png",
-      //Project URL - Add Your Project Url Here
-      hostedURL: "http://google.com/",
-      gitURL: "http://chetanverma.com/",
-      technologies: ["react", "node.js", "express"],
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      description: "This is a sample description of my projects and I don't know what to write and what should I write so please don't judge me.",
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
-      //Project URL - Add Your Project Url Here
-      hostedURL: "http://google.com/",
-      gitURL: "http://chetanverma.com/",
-      technologies: ["react", "node.js", "express"],
-    } 
   ],
 
   // End Work Section -----------------------

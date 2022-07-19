@@ -70,6 +70,21 @@ export default function Home() {
         </div>
       </div>
 
+
+      <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
+        <h1 className="text-4xl text-bold">Languages</h1>
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-5 laptop:grid-cols-12 gap-4">
+          {data.languages.map((language, index) => (
+            <TechCard
+              key={index}
+              imgSource={language.imgSrc}
+              techName={language.techName}
+            />
+          ))}
+        </div>
+      </div>
+
+
       <div className="mt-40 mob:mt-12 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl mob:mt-8 text-bold">Skills</h1>
         <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-3 gap-6">
