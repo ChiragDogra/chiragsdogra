@@ -12,7 +12,7 @@ const WorkCard = ({
   technologies,
 }) => {
   return (
-    <div className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0 transition-all hover:scale-105 ease-out duration-300 shadow-xl  mob:h-48  relative" style={{ height: "580px" }}>
+    <div className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-0 mob:p-0 first:ml-0 transition-all hover:scale-105 ease-out duration-300 shadow-xl  mob:h-48  relative mob: mt-2" style={{ height: "580px" }}>
       <div>
         <Image src={img} alt="mountains" width={900} height={520} />
 
@@ -20,7 +20,7 @@ const WorkCard = ({
           <div className="font-bold text-xl mb-2">
             {name ? name : "Project"}
           </div>
-          <p className="text-gray-700 text-base">
+          <p className="text-gray-700 text-base overflow-hidden " >
             {description ? description : "This is my project"}
           </p>
         </div>

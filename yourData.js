@@ -25,9 +25,9 @@ export default {
     {
       title: "Masion", //Project Title - Add Your Project Title Here
       description:
-        "This is a property renting/listing web application. It is build using reactJS. ReactJS function based components are used in this application. It uses react-router-dom to change pages",
+        "This is a property renting/listing web application. It is build using React.JS functional components.",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/Masion.png",
+      imageSrc: "/Maison.png",
       //Project URL - Add Your Project Url Here
       hostedURL: "https://masion.vercel.app/",
       gitURL: "https://github.com/ChiragDogra/masion/",
@@ -36,20 +36,20 @@ export default {
     {
       title: "Monkey News", //Project Title - Add Your Project Title Here
       description:
-        "This is a react project that fetches data from News API and then renders that data in form of cards in the frontend. This also has infinite scroll feature that fetch and render the news as you scroll down the page.",
+        "This is a react project that fetches data from News API and then renders that data in form of cards in the frontend.",
       //Project Image - Add Your Project Image Here
       imageSrc: "/MonkeyNews.png",
       //Project URL - Add Your Project Url Here
       hostedURL: "https://github.com/ChiragDogra/news-app",
       gitURL: "https://github.com/ChiragDogra/news-app",
-      technologies: ["React"],
+      technologies: ["React", "Bootstrap"],
     },
     {
       title: "Ewitter", //Project Title - Add Your Project Title Here
       description:
-        "This is a decentralized twitter that is made by Next.js in the frontend and Solidity to write smart contract on Ethereum blockchain. It is not deployed yet but soon it'll be deployed.",
+        "This is a decentralized twitter that is made Using Next.js in the frontend and Solidity to write smart contract on Ethereum blockchain. It is not deployed yet but soon it'll be deployed.",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/LinkedIn.png",
+      imageSrc: "/Ewitter.png",
       //Project URL - Add Your Project Url Here
       hostedURL: "https://github.com/ChiragDogra/ewitter",
       gitURL: "https://github.com/ChiragDogra/ewitter",
@@ -60,7 +60,7 @@ export default {
       description:
         "This is a web application where senior folks can post their learnings of the thesis for their Juniors to learn from. This uses React.js in the frontend and Express.js in the backend.",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/LinkedIn.png",
+      imageSrc: "/ResDeck.png",
       //Project URL - Add Your Project Url Here
       hostedURL: "https://github.com/ResDeck",
       gitURL: "https://github.com/ResDeck",
@@ -193,7 +193,7 @@ export default {
 
 
   //Contact Details
-  
+
   contact: [
     {
       title: "G Mail",
