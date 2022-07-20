@@ -9,11 +9,13 @@ import TechCard from "../components/TechCard";
 // Local Data
 import data from "../yourData";
 import Skills from "../components/Skills";
+import ContactCard from "../components/Contact";
 
 export default function Home() {
   // Ref
   const workRef = useRef();
   const aboutRef = useRef();
+  const contactRef = useRef();
 
   // Handling Scroll
   const handleWorkScroll = () => {
@@ -32,13 +34,20 @@ export default function Home() {
     });
   };
 
- 
+  const handleContactScroll = () => {
+    window.scrollTo({
+      top: contactRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="container mx-auto mb-10">
       <Header
         handleWorkScroll={handleWorkScroll}
         handleAboutScroll={handleAboutScroll}
+        handleContactScroll={handleContactScroll}
       />
       <div className="laptop:mt-20 mob:mt-10">
         <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
@@ -70,10 +79,9 @@ export default function Home() {
         </div>
       </div>
 
-
       <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl text-bold">Languages</h1>
-        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-5 laptop:grid-cols-12 gap-4">
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-4 laptop:grid-cols-12 gap-4">
           {data.languages.map((language, index) => (
             <TechCard
               key={index}
@@ -83,7 +91,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
 
       <div className="mt-40 mob:mt-12 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl mob:mt-8 text-bold">Skills</h1>
@@ -96,7 +103,7 @@ export default function Home() {
 
       <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl text-bold">Technologies</h1>
-        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-5 laptop:grid-cols-12 gap-4">
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-4 laptop:grid-cols-12 gap-4">
           {data.technologies.map((tech, index) => (
             <TechCard
               key={index}
@@ -132,12 +139,25 @@ export default function Home() {
           </Link>
         </p>
       </div>
-      <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-4xl text-bold">Contact</h1>
-        <div className="mt-5">
-          <Socials />
+
+
+      <div
+        className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
+        ref={contactRef}
+      >
+        <h1 className="text-4xl text-bold">Contact me</h1>
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-3 laptop:grid-cols-6 gap-4">
+          {data.contact.map((contact, index) => (
+            <ContactCard
+            key={index}
+            title={contact.title}
+            link={contact.link}
+            imgSource={contact.imgSource}
+            />
+          ))}
         </div>
       </div>
+
       <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0">
         Made With ❤ by{" "}
         <Link href="https://twitter.com/ChiragDogra10">

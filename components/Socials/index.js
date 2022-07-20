@@ -2,14 +2,13 @@ import React from "react";
 import Button from "../Button";
 
 import data from "../../yourData";
-import yourData from "../../yourData";
 
 const Socials = ({ className }) => {
   return (
     <div className={`${className} flex`}>
-      {yourData.socials.map((social, index) => (
-        <Button key={index} onClick={() => window.open(social.link)}>
-          {social.title}
+      {data.profiles.map((profile, index) => (
+        <Button key={index} onClick={() => window.open(profile.link)}>
+          {profile.title}
         </Button>
       ))}
     </div>
