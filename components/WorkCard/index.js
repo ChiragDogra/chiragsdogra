@@ -12,9 +12,9 @@ const WorkCard = ({
   technologies,
 }) => {
   return (
-    <div className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0">
+    <div className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0 hover:scale-105 ease-out duration-300">
       <div
-        className="overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-105 mob:h-48 shadow-lg"
+        className="rounded-lg transition-all   mob:h-48 shadow-lg"
         style={{ height: "600px" }}
       >
         <Image src={img} alt="mountains" width={900} height={520} />

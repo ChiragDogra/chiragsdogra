@@ -181,7 +181,7 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "I am a Software Engineer by choice and teacher by passion and above all I am a curious sapien. I like to learn new stuff and teach it to others. I like meet new people and help others, that's why I like to contribute to open source. If you have any message, feel free to DM me on Twitter ",
+    "I am a Software Engineer by choice and teacher by passion and above all, I am a curious human. I love to learn new stuff and teach it to others. Furthermore, I like to meet new people and help others, that's why I like to contribute to open source. If you have any messages, feel free to DM me on Twitter ",
   //   End About Section ---------------------
 };
 

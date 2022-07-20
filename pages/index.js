@@ -108,7 +108,7 @@ export default function Home() {
       </div>
 
       <div className="mt-40 mob:mt-12 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-4xl mob:mt-8 text-bold">Achievements.</h1>
+        <h1 className="text-4xl mob:mt-8 text-bold">Achievements</h1>
         <div className="mt-10 grid grid-cols-2 mob:grid-cols-1 laptop:grid-cols-2 gap-6">
           {data.achievements.map((service, index) => (
             <ServiceCard
@@ -124,7 +124,7 @@ export default function Home() {
         className="mt-40 mob:mt-20 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={aboutRef}
       >
-        <h1 className="text-4xl text-bold ">About.</h1>
+        <h1 className="text-4xl text-bold ">About</h1>
         <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-3/5">
           {data.aboutpara}{" "}
           <Link href="https://twitter.com/ChiragDogra10">
@@ -133,7 +133,7 @@ export default function Home() {
         </p>
       </div>
       <div className="mt-40 mob:mt-5 laptop:mt-40 mob:p-2 laptop:p-0">
-        <h1 className="text-4xl text-bold">Contact.</h1>
+        <h1 className="text-4xl text-bold">Contact</h1>
         <div className="mt-5">
           <Socials />
         </div>
