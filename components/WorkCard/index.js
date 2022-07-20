@@ -12,11 +12,8 @@ const WorkCard = ({
   technologies,
 }) => {
   return (
-    <div className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0 transition-all hover:scale-105 ease-out duration-300">
-      <div
-        className="rounded-lg  mob:h-48 shadow-lg relative"
-        style={{ height: "580px" }}
-      >
+    <div className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0 transition-all hover:scale-105 ease-out duration-300 shadow-xl  mob:h-48  relative" style={{ height: "580px" }}>
+      <div>
         <Image src={img} alt="mountains" width={900} height={520} />
 
         <div className="px-6 py-4">
@@ -40,13 +37,13 @@ const WorkCard = ({
         <div className="px-6 pt-4 pb-2 absolute bottom-0 left-0">
           <GitHubIcon
             sx={{ fontSize: "40px" }}
-            className="hover:scale-105 mr-4 mb-4 cursor-pointer"
+            className="mr-4 mb-4 cursor-pointer transition-all hover:scale-105 ease-out duration-300 "
             onClick={toGithub}
             alt="Github Link"
           />
           <DevicesIcon
             sx={{ fontSize: "40px" }}
-            className="hover:scale-105 mr-4 mb-4 cursor-pointer"
+            className="mr-4 mb-4 cursor-pointer transition-all hover:scale-105 ease-out duration-300 "
             onClick={toHosted}
             alt="HostedLink"  
           />
