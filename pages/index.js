@@ -146,7 +146,7 @@ export default function Home() {
         ref={contactRef}
       >
         <h1 className="text-4xl text-bold">Contact me</h1>
-        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-3 laptop:grid-cols-8 gap-4">
+        <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-4 laptop:grid-cols-8 gap-4">
           {data.contact.map((contact, index) => (
             <ContactCard
             key={index}
