@@ -4,7 +4,7 @@ import React from "react";
 const ContactCard = ({title, link, imgSource}) => {
   return (
     <div
-      className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0" style={{ height: "85px", width:"85px" }}
+      className="overflow-hidden  rounded-lg p-4 mob:p-2 laptop:p-4 first:ml-0 mob:h-20 mob:w-20 laptop:h-24 laptop:w-24" 
     >
       <div
         className=" relative overflow-hidden rounded-lg transition-all ease-out duration-300 hover:scale-105 mob:h-48 "

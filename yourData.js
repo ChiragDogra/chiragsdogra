@@ -23,7 +23,7 @@ export default {
   // Project Section ------------------------
   projects: [
     {
-      title: "Masion", //Project Title - Add Your Project Title Here
+      title: "Maison", //Project Title - Add Your Project Title Here
       description:
         "This is a property renting/listing web application. It is build using React.JS functional components.",
       //Project Image - Add Your Project Image Here
