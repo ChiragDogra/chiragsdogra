@@ -134,7 +134,7 @@ export default function Home() {
         <h1 className="text-4xl text-bold ">About</h1>
         <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-4/5 leading-9">
           {data.aboutpara}{" "}
-          <Link href="https://twitter.com/ChiragDogra10">
+          <Link href="https://twitter.com/ChiragSDogra">
             <a className="underline ">@Chirag Dogra</a>
           </Link>
         </p>
@@ -160,7 +160,7 @@ export default function Home() {
 
       <h1 className="text-sm text-bold mt-10 mob:mt-2 laptop:mt-10 mob:p-2 laptop:p-0">
         Made With ❤ by{" "}
-        <Link href="https://twitter.com/ChiragDogra10">
+        <Link href="https://twitter.com/ChiragSDogra">
           <a className="underline underline-offset-1">Chirag Dogra</a>
         </Link>
       </h1>

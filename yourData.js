@@ -203,7 +203,7 @@ export default {
     },
     {
       title: "Twitter",
-      link: "https://twitter.com/ChiragDogra10",
+      link: "https://twitter.com/ChiragSDogra",
       imgSource:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/934px-Twitter-logo.svg.png",
     },
