@@ -11,8 +11,8 @@ export default {
 
   profiles: [
     { title: "Github", link: "https://github.com/ChiragDogra" },
-    { title: "Leetcode", link: "https://leetcode.com/Chirag2001op/" },
-    { title: "Medium Blog", link: "https://medium.com/@chiragdogra10/" },
+    { title: "Leetcode", link: "https://leetcode.com/ChiragSDogra/" },
+    { title: "Medium Blog", link: "https://medium.com/@ChiragSDogra/" },
     { title: "Hashnode Blog", link: "https://chiragdogra.hashnode.dev/" },
   ],
 

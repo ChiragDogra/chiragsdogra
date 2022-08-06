@@ -135,7 +135,7 @@ export default function Home() {
         <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-4/5 leading-9">
           {data.aboutpara}{" "}
           <Link href="https://twitter.com/ChiragSDogra">
-            <a className="underline ">@Chirag Dogra</a>
+            <a className="underline ">@ChiragSDogra</a>
           </Link>
         </p>
       </div>
