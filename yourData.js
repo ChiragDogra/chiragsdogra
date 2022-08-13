@@ -4,8 +4,8 @@ export default {
 
   //   Header Details ---------------------
   name: "Chirag Dogra",
-  headerTaglineOne: "Hello 👋",
-  headerTaglineTwo: "I'm Chirag Dogra. ",
+  headerTaglineOne: "Hello👋",
+  headerTaglineTwo: "I'm Chirag Dogra ",
   headerTaglineThree:
     "I am a Full Stack Developer and an Open Source Contributor",
 

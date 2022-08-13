@@ -10,6 +10,7 @@ import TechCard from "../components/TechCard";
 import data from "../yourData";
 import Skills from "../components/Skills";
 import ContactCard from "../components/Contact";
+import Typing from "../components/Typing";
 
 export default function Home() {
   // Ref
@@ -49,15 +50,14 @@ export default function Home() {
         handleAboutScroll={handleAboutScroll}
         handleContactScroll={handleContactScroll}
       />
-      <div className="laptop:mt-20 mob:mt-10">
-        <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
-          {data.headerTaglineOne} <br />
-          {data.headerTaglineTwo} <br />
+      <div className="laptop:mt-20 mob:mt-10 laptop: h-98  mob: h-10 mob: text-center  ">
+        <h1 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-full ">
+          {data.headerTaglineOne} {data.headerTaglineTwo}
         </h1>
-        <h2 className="mt-5 text-8xl mob:text-3xl laptop:text-8xl mob:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5">
-          {data.headerTaglineThree}
-        </h2>
-        <Socials className="mt-5 mob:mt-2 laptop:mt-5" />
+        <Typing />
+        <div className="mt-48 mob:mt-40">
+          <Socials />
+        </div>
       </div>
       <div
         className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
@@ -140,7 +140,6 @@ export default function Home() {
         </p>
       </div>
 
-
       <div
         className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
         ref={contactRef}
@@ -149,10 +148,10 @@ export default function Home() {
         <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-4 laptop:grid-cols-8 gap-4">
           {data.contact.map((contact, index) => (
             <ContactCard
-            key={index}
-            title={contact.title}
-            link={contact.link}
-            imgSource={contact.imgSource}
+              key={index}
+              title={contact.title}
+              link={contact.link}
+              imgSource={contact.imgSource}
             />
           ))}
         </div>

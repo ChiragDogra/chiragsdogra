@@ -10,6 +10,9 @@ module.exports = {
       laptopl: "1440px",
       desktop: "1280px",
     },
+    height: {
+      '128': '32rem',
+    },
     extend: {},
   },
   plugins: [],

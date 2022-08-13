@@ -5,7 +5,7 @@ import data from "../../yourData";
 
 const Socials = ({ className }) => {
   return (
-    <div className={`${className} flex`}>
+    <div className="mt-5 mob:mt-2 laptop:mt-5">
       {data.profiles.map((profile, index) => (
         <Button key={index} onClick={() => window.open(profile.link)}>
           {profile.title}
