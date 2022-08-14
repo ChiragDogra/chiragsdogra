@@ -6,8 +6,6 @@ export default {
   name: "Chirag Dogra",
   headerTaglineOne: "Hello👋",
   headerTaglineTwo: "I'm Chirag Dogra ",
-  headerTaglineThree:
-    "I am a Full Stack Developer and an Open Source Contributor",
 
   profiles: [
     { title: "Github", link: "https://github.com/ChiragDogra" },
@@ -224,6 +222,6 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "I am a Software Engineer by choice and teacher by passion and above all, I am a curious human. I love to learn new stuff and share it with others. Furthermore, I like to meet new people and help others, that's why I like to contribute to open source. If you have any messages, feel free to DM me on Twitter ",
+    "I am a Software Engineer by choice and teacher by passion and above all, I am a curious human. I love to learn new stuff and share it wi, others. Furthermore, I like to meet new people and help others, that's why I like to contribute to open source. If you have any messages, feel free to DM me on Twitter ",
   //   End About Section ---------------------
 };
