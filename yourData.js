@@ -23,6 +23,17 @@ export default {
   // Project Section ------------------------
   projects: [
     {
+      title: "Travello", //Project Title - Add Your Project Title Here
+      description:
+        "This is a web app where one can share their travell photos and sort them according to location and other tags. Frontend is hosted on vercel and backend is hosted on Heroku",
+      //Project Image - Add Your Project Image Here
+      imageSrc: "/Travello.png",
+      //Project URL - Add Your Project Url Here
+      hostedURL: "https://travelo-two.vercel.app/posts",
+      gitURL: "https://github.com/ChiragDogra/Travello",
+      technologies: ["React", "ExpressJS", "MongoDB", "Material UI"],
+    },
+    {
       title: "Maison", //Project Title - Add Your Project Title Here
       description:
         "This is a property renting/listing web application. It is build using React.JS functional components.",
@@ -43,29 +54,19 @@ export default {
       hostedURL: "https://github.com/ChiragDogra/news-app",
       gitURL: "https://github.com/ChiragDogra/news-app",
       technologies: ["React", "Bootstrap"],
-    },
-    {
-      title: "Ewitter", //Project Title - Add Your Project Title Here
-      description:
-        "This is a decentralized twitter that is made Using Next.js in the frontend and Solidity to write smart contract on Ethereum blockchain. It is not deployed yet but soon it'll be deployed.",
-      //Project Image - Add Your Project Image Here
-      imageSrc: "/Ewitter.png",
-      //Project URL - Add Your Project Url Here
-      hostedURL: "https://github.com/ChiragDogra/ewitter",
-      gitURL: "https://github.com/ChiragDogra/ewitter",
-      technologies: ["NextJS", "Solidity", "TypeScript"],
-    },
-    {
-      title: "ResDeck", //Project Title - Add Your Project Title Here
-      description:
-        "This is a web application where senior folks can post their learnings of the thesis for their Juniors to learn from. This uses React.js in the frontend and Express.js in the backend.",
-      //Project Image - Add Your Project Image Here
-      imageSrc: "/ResDeck.png",
-      //Project URL - Add Your Project Url Here
-      hostedURL: "https://github.com/ResDeck",
-      gitURL: "https://github.com/ResDeck",
-      technologies: ["React", "Node.js", "Express"],
-    },
+    }
+    // ,
+    // {
+    //   title: "ResDeck", //Project Title - Add Your Project Title Here
+    //   description:
+    //     "This is a web application where senior folks can post their learnings of the thesis for their Juniors to learn from. This uses React.js in the frontend and Express.js in the backend.",
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc: "/ResDeck.png",
+    //   //Project URL - Add Your Project Url Here
+    //   hostedURL: "https://github.com/ResDeck",
+    //   gitURL: "https://github.com/ResDeck",
+    //   technologies: ["React", "Node.js", "Express"],
+    // },
   ],
 // End of Project section
 
@@ -223,6 +224,6 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "I am a Software Engineer by choice and teacher by passion and above all, I am a curious human. I love to learn new stuff and teach it to others. Furthermore, I like to meet new people and help others, that's why I like to contribute to open source. If you have any messages, feel free to DM me on Twitter ",
+    "I am a Software Engineer by choice and teacher by passion and above all, I am a curious human. I love to learn new stuff and share it with others. Furthermore, I like to meet new people and help others, that's why I like to contribute to open source. If you have any messages, feel free to DM me on Twitter ",
   //   End About Section ---------------------
 };
