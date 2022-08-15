@@ -10,9 +10,9 @@ function Typing() {
             wrapper = "b"
             steps = {[
                 'a full stack developer',
-                2500,
+                2000,
                 'an open source contributor',
-                2500
+                2000
 
             ]}
         />
