@@ -1,16 +1,17 @@
 import { useRef } from "react";
 import Link from "next/link";
-import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
-import Socials from "../components/Socials";
-import WorkCard from "../components/WorkCard";
-import TechCard from "../components/TechCard";
+import Head from "next/head";
 
 // Local Data
 import data from "../yourData";
 import Skills from "../components/Skills";
 import ContactCard from "../components/Contact";
 import Typing from "../components/Typing";
+import Header from "../components/Header";
+import ServiceCard from "../components/ServiceCard";
+import Socials from "../components/Socials";
+import WorkCard from "../components/WorkCard";
+import TechCard from "../components/TechCard";
 
 export default function Home() {
   // Ref
@@ -45,6 +46,13 @@ export default function Home() {
 
   return (
     <div className="container mx-auto mb-10">
+      <Head>
+        <title>ChiragSDogra | Chirag Singh Dogra portfolio</title>
+        <meta
+          name="Description"
+          content="Portfolio website of Chirag Singh Dogra | ChiragSDogra portfolio"
+        />
+      </Head>
       <Header
         handleWorkScroll={handleWorkScroll}
         handleAboutScroll={handleAboutScroll}
