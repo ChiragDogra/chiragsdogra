@@ -16,7 +16,7 @@ import TechCard from "../components/TechCard";
 export default function Home() {
   // Ref
   const workRef = useRef();
-  const aboutRef = useRef();
+  const skillRef = useRef();
   const contactRef = useRef();
 
   // Handling Scroll
@@ -28,9 +28,9 @@ export default function Home() {
     });
   };
 
-  const handleAboutScroll = () => {
+  const handleSkillScroll = () => {
     window.scrollTo({
-      top: aboutRef.current.offsetTop,
+      top: skillRef.current.offsetTop,
       left: 0,
       behavior: "smooth",
     });
@@ -55,7 +55,7 @@ export default function Home() {
       </Head>
       <Header
         handleWorkScroll={handleWorkScroll}
-        handleAboutScroll={handleAboutScroll}
+        handleSkillScroll={handleSkillScroll}
         handleContactScroll={handleContactScroll}
       />
       <div className="laptop:mt-20 mob:mt-10 laptop: h-98  mob: h-10 mob: text-center  ">
@@ -87,7 +87,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0">
+      <div
+        className="mt-40 mob:mt-10 laptop:mt-40 mob:p-2 laptop:p-0"
+        ref={skillRef}
+      >
         <h1 className="text-4xl text-bold">Languages</h1>
         <div className="mt-10 mob:mt-5 laptop:mt-10 grid grid-cols-10 mob:grid-cols-4 laptop:grid-cols-12 gap-4">
           {data.languages.map((language, index) => (
@@ -135,10 +138,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div
-        className="mt-40 mob:mt-20 laptop:mt-40 mob:p-2 laptop:p-0"
-        ref={aboutRef}
-      >
+      <div className="mt-40 mob:mt-20 laptop:mt-40 mob:p-2 laptop:p-0">
         <h1 className="text-4xl text-bold ">About</h1>
         <p className="m-5 mob:m-0 laptop:m-5 mob:mt-2 laptop:ml-0 ml-0 text-3xl mob:text-xl laptop:text-3xl w-3/5 mob:w-full laptop:w-4/5 leading-9">
           {data.aboutpara}

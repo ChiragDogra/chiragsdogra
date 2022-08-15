@@ -222,6 +222,6 @@ export default {
 
   // About Secton --------------
   aboutpara:
-    "A curious programmer. 😉",
+    "A curious human. 😉",
   //   End About Section ---------------------
 };
