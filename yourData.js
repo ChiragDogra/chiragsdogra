@@ -10,8 +10,8 @@ export default {
   profiles: [
     { title: "Github", link: "https://github.com/ChiragDogra" },
     { title: "Leetcode", link: "https://leetcode.com/ChiragSDogra/" },
-    { title: "Medium Blog", link: "https://medium.com/@ChiragSDogra/" },
-    { title: "Hashnode Blog", link: "https://chiragdogra.hashnode.dev/" },
+    { title: "Resume", link: "https://drive.google.com/file/d/1N154ExXvdL-Cpt6t5zvpzyPRZJp6hmXg/view?usp=sharing" },
+    { title: "Blog", link: "https://chiragdogra.hashnode.dev/" },
   ],
 
   // End Header Details -----------------------
@@ -25,22 +25,22 @@ export default {
       description:
         "This is a web app where one can share their travell photos and sort them according to location and other tags. Frontend is hosted on vercel and backend is hosted on Heroku",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/Travello.png",
+      imageSrc: "/TravelloB.png",
       //Project URL - Add Your Project Url Here
       hostedURL: "https://travelo-two.vercel.app/posts",
       gitURL: "https://github.com/ChiragDogra/Travello",
       technologies: ["React", "ExpressJS", "MongoDB", "Material UI"],
     },
     {
-      title: "Maison", //Project Title - Add Your Project Title Here
+      title: "Organico", //Project Title - Add Your Project Title Here
       description:
-        "This is a property renting/listing web application. It is build using React.JS functional components.",
+        "This is a ecommerce app made with Next.js that makes it blazing fast because of server side rendering. Backend is made using sanity.",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/Maison.png",
+      imageSrc: "/OrganicoB.png",
       //Project URL - Add Your Project Url Here
-      hostedURL: "https://masion.vercel.app/",
-      gitURL: "https://github.com/ChiragDogra/masion/",
-      technologies: ["React", "Firebase"],
+      hostedURL: "https://organico-fgk4sfpip-chiragdogra.vercel.app/",
+      gitURL: "https://github.com/ChiragDogra/organico/",
+      technologies: ["Next.js", "Sanity.io"],
     },
     {
       title: "Monkey News", //Project Title - Add Your Project Title Here
