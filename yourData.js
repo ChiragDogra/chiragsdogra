@@ -10,7 +10,7 @@ export default {
   profiles: [
     { title: "Github", link: "https://github.com/ChiragDogra" },
     { title: "Leetcode", link: "https://leetcode.com/ChiragSDogra/" },
-    { title: "Resume", link: "https://drive.google.com/file/d/1N154ExXvdL-Cpt6t5zvpzyPRZJp6hmXg/view?usp=sharing" },
+    { title: "Resume", link: "https://drive.google.com/file/d/1IySrBJdBSvWi1foCq2xgPAwHidei3Qwd/view" },
     { title: "Blog", link: "https://chiragdogra.hashnode.dev/" },
   ],
 
