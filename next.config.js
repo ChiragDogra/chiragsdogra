@@ -15,7 +15,11 @@ const nextConfig = {
       "w7.pngwing.com",
       "i.pinimg.com",
       "cdn-icons-png.flaticon.com",
-      "cdn.hashnode.com"
+      "cdn.hashnode.com",
+      "w1.pngwing.com",
+      "cdn.icon-icons.com",
+      "git-scm.com",
+      "logospng.org"
     ],
   },
 };
