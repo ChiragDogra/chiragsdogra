@@ -10,7 +10,7 @@ export default {
   profiles: [
     { title: "Github", link: "https://github.com/ChiragDogra" },
     { title: "Leetcode", link: "https://leetcode.com/ChiragSDogra/" },
-    { title: "Resume", link: "https://drive.google.com/file/d/19mnUdDENRIrrv5Y4BLmtmuYxUqBsNdGg/view?usp=sharing" },
+    { title: "Resume", link: "https://drive.google.com/file/d/1HWKvZ_gRR5Qcspj1qMj_dTLgd1BDD8q9/view?usp=sharing" },
     { title: "All links", link: "https://chiragdogra.bio.link" },
   ],
 
@@ -43,15 +43,15 @@ export default {
       technologies: ["Next.js", "Sanity.io"],
     },
     {
-      title: "Monkey News", //Project Title - Add Your Project Title Here
+      title: "Ball and Stick", //Project Title - Add Your Project Title Here
       description:
-        "This is a react project that fetches data from News API and then renders that data in form of cards in the frontend.",
+        "A simple game made with JavaScript and Canvas",
       //Project Image - Add Your Project Image Here
-      imageSrc: "/MonkeyNews.png",
+      imageSrc: "/BallAndStick.png",
       //Project URL - Add Your Project Url Here
-      hostedURL: "https://github.com/ChiragDogra/news-app",
-      gitURL: "https://github.com/ChiragDogra/news-app",
-      technologies: ["React", "Bootstrap"],
+      hostedURL: "https://ball-and-stick.vercel.app/",
+      gitURL: "https://github.com/ChiragDogra/BallAndStick",
+      technologies: ["JavaScript", "Canvas"],
     }
     // ,
     // {
@@ -208,7 +208,7 @@ export default {
     },
     {
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/Chirag-Singh-Dogra/",
+      link: "https://www.linkedin.com/in/ChiragSDogra/",
       imgSource:
         "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png",
     },
